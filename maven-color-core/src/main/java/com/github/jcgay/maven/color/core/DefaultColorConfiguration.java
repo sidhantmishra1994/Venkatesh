@@ -42,7 +42,7 @@ public class DefaultColorConfiguration implements ConfigurableColor {
 
     @Override
     public Ansi onBuildFailure() {
-        return ansi().fgBright(RED).bold();
+        return ansi().fgBright(GREEN).bold();
     }
 
     @Override
